@@ -43,17 +43,26 @@ main {
   }
 
 aside {
-    flex: 25%;
+    flex: 55%;
     background-color: #b9c6ae;
     padding: 20px;
      
 
 }
 
+
 section {
+    display: block;
     padding: 20px;
     background-color: olive;
 }
+
+.image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
+    margin: 10px;
+}
+
+
+
 
 .picture {
     width: 250px;
@@ -64,6 +73,7 @@ section {
 
 
 }
+
 
 h1 {
     padding:25px 50px;
