@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Yasin's Portfolio</title>
     <link rel="stylesheet" href="Assets/css/reset.css">
     <link rel="stylesheet" href="Assets/css/style.css">
 </head>
@@ -12,12 +12,12 @@
 <body>
     <header>
     
-    <!-- <h1>Yasin's Portfolio</h1>     -->
+    <h1>Yasin's Portfolio</h1>    
         <nav>
             <ul>
-                <li><a href="#About-Me">About Me</a></li>
-                <li><a href="#My-Work">My Work</a></li>
-                <li><a href="#Contact-Me">Contact Me</a></li>
+                <li><a href="#About-Me"><button>About Me</button></a></li>
+                <li><a href="#My-Work"><button>My Work</button></a></li>
+                <li><a href="#Contact-Me"><button>Contact Me</button></a></li>
                 
             </ul>
         </nav>
@@ -25,43 +25,56 @@
      
     <main>
      <aside>
-        <div><h2> About Me</h2></div>
-     </aside>
+        <section>
+        <div class="Aside-About-Me"><h2> About Me</h2></div>
+        </section>
+        
+        <section>
+        <div class="Aside-My-Work"><h2>My Work</h2></div>
+        </section>
+        
+        <section>
+        <div class="Aside-Contact-Me"><h2>Contact Me</h2></div>
+        </section>
+    </aside>
      
     <div class="content">   
         <section id="About-Me" class="AAA"> 
-                
-                <img class="picture" src="/Assets/Image/yasin_pic.jpg" alt="placeholder image"/>
+                <div class="both-div-padding">
+                <img class="picture" src="/Assets/Image/Yasin_new_pic.jpg" alt="placeholder image"/>
                 <p>Pellentesque habitant morbi tristique senectus et
                 netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, 
                 tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
                 Mauris placerat eleifend leo.</p>
-                    
+                </div>    
         </section>
-                
-        <section id="My-Work" class="MMM" >
         
-            <img class="image-1" src="https://via.placeholder.com/1200x400" alt="placeholder image"/>
+        <div class="MMM">
+        <section id="My-Work" >
+        
+            <img class="image-1" src="https://via.placeholder.com/1222x300" alt="placeholder image"/>
             <img class="image-2" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
             <img class="image-3" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
             <img class="image-4" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
             <img class="image-5" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
             <img class="image-6" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
             <img class="image-7" src="https://via.placeholder.com/600x200" alt="placeholder image"/>
-            <p>Pellentesque habitant morbi tristique senectus et
+            <!-- <p>Pellentesque habitant morbi tristique senectus et
             netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, 
             tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
-            Mauris placerat eleifend leo.</p>
+            Mauris placerat eleifend leo.</p> -->
         </section>
-        
+        </div>
 
         <section id="Contact-Me" class="CCC">
-            <img class="picture" src="/Assets/Image/yasin_pic.jpg" alt="placeholder image"/>
+            <div class="both-div-padding">
+            <img class="picture" src="/Assets/Image/Yasin_new_pic.jpg" alt="placeholder image"/>
             <h3>Contact Me</h3>
             <p>Pellentesque habitant morbi tristique senectus et
             netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, 
             tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. 
             Mauris placerat eleifend leo.</p>
+            </div>
         </section>
         </div>
           
@@ -69,7 +82,7 @@
    </main>
 
    <footer>
-    <h4>Copyright © 2021 Yasin Munye All Rights Reserved.</h4>
+    <h4>The Creation Of This Website Has Been Fueled With Late Night Energy Drinks <br>Copyright © 2021 Yasin Munye All Rights Reserved.</h4>
     </footer>
 </body>
 </html>
