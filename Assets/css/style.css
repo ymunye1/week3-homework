@@ -81,10 +81,17 @@ body {
     
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 10px;
+    
+  }
+
+
 .text-img-1 {
     /* background-color: black; */
     position: absolute;
-    
+    /* margin-bottom: ; */
 
 
 }
@@ -100,18 +107,18 @@ body {
 .Aside-About-Me {
     border-right: 10px solid black;
     min-height: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 .Aside-My-Work{
     border-right: 10px solid black;
     min-height: 800px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .Aside-Contact-Me {
     border-right: 10px solid black;
-    min-height: 333px;
+    min-height: 200px;
     
 }
 
