@@ -75,6 +75,14 @@ body {
 }
 
 
+.picture {
+    width: 250px;
+    margin: 0px 10px 20px 0px;
+    background-color: white;
+    display: block;
+}
+
+
 .MMM {
     background-color: white;
     padding: 20px;
@@ -88,19 +96,22 @@ body {
   }
 
 
+.work-center {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text-img-1 {
-    /* background-color: black; */
     position: absolute;
-    /* margin-bottom: ; */
-
-
 }
 
 .content {
     background-color: #0F4C75;
 }
+
 .both-div-padding {
-    margin-top: 20px;
+    margin-top: 20px; 
     margin-bottom: 20px;
     padding-left: 40px;
     padding-right: 20px;
@@ -109,13 +120,13 @@ body {
 .Aside-About-Me {
     border-right: 10px solid black;
     min-height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 700px;
 }
 
 .Aside-My-Work{
     border-right: 10px solid black;
     min-height: 900px;
-    margin-bottom: 180px;
+    margin-bottom: 500px;
 }
 
 .Aside-Contact-Me {
@@ -125,24 +136,11 @@ body {
 }
 
 
-
-
-
 .image-1, .image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
     margin: 10px;
 }
 
 
-
-
-.picture {
-    width: 250px;
-    margin: 0px 10px 20px 0px;
-    background-color: white;
-    display:block;
-
-
-}
 
 
 h1 {
@@ -164,3 +162,4 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
