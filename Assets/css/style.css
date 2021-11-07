@@ -10,6 +10,10 @@ header {
     background-size: cover;
     padding: 30px;
     min-height: 85px;
+    background-position: center center;
+    
+    
+    
 }
 
 
@@ -65,15 +69,10 @@ main {
 }
 
 aside {
-    flex: 65%;
+    flex: 35%;
     background-color: #FFF3E4;
     text-align: center;  
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 
 .picture {
     width: 250px;
@@ -83,12 +82,13 @@ body {
     display: block;
 }
 
-/* ul li {
-    font-size: 10px;
-} */
+.container_text {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+}
 
 
-.MMM {
+.work{
     background-color: white;
     padding: 20px;
     
@@ -121,20 +121,20 @@ body {
 
 .Aside-About-Me {
     border-right: 10px solid black;
-    min-height: 300px;
-    margin-bottom: 700px;
+    min-height: 280px;
+    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .Aside-My-Work{
     border-right: 10px solid black;
-    min-height: 900px;
-    margin-bottom: 500px;
+    min-height: 1600px;
+    margin-bottom: 200px;
 }
 
 .Aside-Contact-Me {
     border-right: 10px solid black;
-    min-height: 150px;
-    
+    min-height: 200px; 
 }
 
 
@@ -142,6 +142,19 @@ body {
     margin: 10px;
 }
 
+.image-1 {
+    width: 100%;
+}
+
+.image-2, .image-3, .image-4, .image-5, .image-6, .image-7 {
+ width: 100%;
+}
+
+
+ .bottom ul li {
+    font-size: 20px;
+    padding: 10px;
+}
 
 h1 {
     padding:25px 50px;
@@ -150,11 +163,6 @@ h1 {
 
 }
 
-ul li {
-    font-size: 20px;
-    padding: 10px;
-    font-weight: bold;
-}
 
 footer {
     background-color: lightyellow;
@@ -168,3 +176,195 @@ footer {
     text-decoration-thickness: 5px;
 }
 
+@media screen and (max-width: 1482px) {
+    main,
+    nav {
+      width: 100%;
+    }
+    aside {
+        flex: 35%;
+        background-color: #FFF3E4;
+        text-align: center;  
+    }
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 260px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1500px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 150px;
+    }
+}
+
+
+@media screen and (max-width: 1277px) {
+    main,
+    nav {
+      width: 100%;
+    }
+    aside {
+        flex: 55%;
+    }
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 260px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1240px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 1028px) {
+    main,
+    nav {
+      width: 100%;
+    
+    }
+    nav ul li {
+        display: block;
+
+    }
+
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 260px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1240px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    main,
+    nav {
+      width: 100%;
+    }
+
+    aside {
+        flex: 65%;
+    }
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 260px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1040px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      width: 100%;
+    }
+    
+    aside {
+        flex: 85%;
+    }
+    
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 555px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1050px;
+        margin-bottom: 84px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 220px;
+    }
+    .container_text {
+        font-size: 20px;
+        font-family: 'PT Sans', sans-serif;
+        display:inline-block
+    } 
+}
+
+@media screen and (max-width: 414px) {
+    main,
+    nav {
+      width: 100%;
+    }
+    
+    aside {
+        flex: 50%;
+    }
+    
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 260px;
+        margin-bottom: 500px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1100px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 250px;
+    }
+@media screen and (max-width: 375px) {
+    main,
+    nav {
+      width: 100%;
+    }
+    
+    aside {
+        flex: 85%;
+    }
+    
+    .Aside-About-Me {
+        border-right: 10px solid black;
+        min-height: 660px;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+    .Aside-My-Work{
+        border-right: 10px solid black;
+        min-height: 1080px;
+        margin-bottom: 184px;
+    }
+    .Aside-Contact-Me {
+        border-right: 10px solid black;
+        min-height: 250px;
+    }
+
+}
