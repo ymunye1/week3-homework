@@ -6,7 +6,7 @@
 
 
 header {
-    background-image: url(/Assets/Image/mountain-lake-reflections-1600x160.jpeg);
+    background-image: url(../Assets/Image/mountain-lake-reflections-1600x160.jpeg);
     background-size: cover;
     padding: 30px;
     min-height: 85px;
